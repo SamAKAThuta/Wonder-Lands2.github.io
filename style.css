@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bgimage{
+    background: url("home.jpg");
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+}
+.menu{
+    width: 100%;
+    height: 90px;
+    background-color: orange;
+}
+.leftmenu{
+    width: 20%;
+    float: left;
+}
+.leftmenu span{
+    color: red;
+    font-size: 40px;
+    font-family: BLACKADDER ITC;
+}
+.leftmenu h4{
+    padding-left: 50px;
+    font-weight: bold;
+    color: blue;
+    font-size: 30px;
+    font-family: Brush Script MT;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.rightmenu{
+    width: 60%;
+    height: 100px;
+    float: right;
+}
+.rightmenu ul{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.rightmenu ul a{
+    display: inline-block;
+    font-family: Imprint MT Shadow;
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    line-height: 79px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px;
+}
+.rightmenu ul a:hover{
+    color: purple;
+}
+.list{
+    color: purple;
+}
+.text{
+    width: 100%;
+    margin-top: 185px;
+    text-align: center;
+    color: white;
+}
+.text p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.text h4{
+    font-size: 14px;
+    font-family: Brush Script MT;
+}
+.text h1{
+    font-size: 62px;
+    font-family: Algerian;
+    font-weight: 700px;
+    margin: 14px 0px;
+}
+.text h3{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.btn{
+    background-color: white;
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+    color: black;
+}
+footer{
+    width: 100%;
+    height: 200%;
+    background-color: orange;
+    text-align: center;
+    font-family: Britannic Bold;
+    font-size: large;
+    color: white;
+    padding: 20px;
+}
+/*page 2*/
+.title h3{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}
+.title .kayin{
+    width: 90%;
+    padding: 10px;
+    line-height: 25px;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+}
+.row:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.col{
+    width: 32%;
+    padding: 30px;
+    float: left;
+    text-align: justify;
+    font-size: 12px;
+}
+.container h1{
+
+    margin-left: 10px;
+    margin-top: 10px;
+    color: blue;
+}
+.container{
+    background-image: url(b2.jpg);
+    background-size: 100%;
+}
+hr{
+    margin: auto;
+    margin-top: 10px;
+    color: blue;
+}
+.row{
+    margin: auto;
+}
+.col img{
+    width: 370px;
+}
+.col h3{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.col p{
+    line-height: 25px;
+    margin: auto;
+}
+.container{
+    margin-left: 35px;
+}
+.line hr{
+    width: 50%;
+    margin: auto;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*page 3*/
+.hotel tr .number{
+    height: 24px;
+}
+.hotel tr .left{
+    height: 40px;
+}
+.hotel tbody{
+    border: 2px;
+}
+table{
+    padding: 20px;
+    background-color: skyblue;
+    margin: auto;
+    border: 1px solid black;
+}
+td{
+    padding: 20px;
+}
+.hotellist h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.reslist{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.foodlist ul{
+    margin-left: 100px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.colleft ul{
+    float: left;
+    width: 30%;
+    margin-left: 100px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.colright{
+    float: left;
+    width: 60%;
+}
+.colright img{
+    width: 800px;
+    margin-right: 50px;
+    padding: 30px;
+}
+.colcontact{
+    float: left;
+    width: 60%;
+    padding: 40px;
+    font-size: 20px;
+}
+.contact{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.colform{
+    width: 40%;
+    float: left;
+}
+.formcontact{
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.container .label{
+    padding: 20px;
+    margin: auto;
+}
+fieldset{
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+    background-color: skyblue;
+}
+@media screen and (max-width: 600px){
+    .menu{
+        width: 100%;
+    }
+}
